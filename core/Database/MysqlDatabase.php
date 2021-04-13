@@ -23,7 +23,7 @@ class MysqlDatabase extends Database
     private function getPDO()
     {
         if ($this->pdo === null){
-            $pdo = new PDO('mysql:dbname=boutique2;host=localhost', 'root', 'root');
+            $pdo = new PDO('mysql:dbname=boutique;host=localhost', 'root', '');
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $this->pdo = $pdo;
         }

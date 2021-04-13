@@ -2,8 +2,8 @@
 return array(
 
     "db_user" => "root",
-    "db_pass" => "root",
+    "db_pass" => "",
     "db_host" => "localhost",
-    "db_name" => "boutique2"
+    "db_name" => "boutique"
 
 );
